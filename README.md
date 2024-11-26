@@ -27,9 +27,6 @@ Response: Redirects the user to the original URL.
         "Timestamp": "2024-11-26T10:30:00.000Z"
     }
 
-
-
-
 ## **Database**
 
 The service uses MongoDB to store data about the URLs:
