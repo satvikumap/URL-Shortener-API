@@ -11,6 +11,10 @@ connectDB();
 
 app.use(express.json());
 app.use(apiLimiter)
+
+app.get('/', (req, res) => {
+  res.send('Hello World')
+})
 app.use("/",shortUrl)
 
 
